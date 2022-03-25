@@ -59,6 +59,19 @@ class AddressBookEmploy2 {
         this.zip = zip;
         this.phoneNumber = phoneNumber;
     }
+
+    @Override
+    public String toString() {
+        return "AddressBookEmploy2{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address='" + address + '\'' +
+                ", state='" + state + '\'' +
+                ", zip=" + zip +
+                ", phoneNumber=" + phoneNumber +
+                '}';
+    }
+
     public String getFirstName() {
         return firstName;
     }
